@@ -9,6 +9,7 @@ h1 {
 
 h2 {
     margin-top: 75px;
+    color: #031b4e;
 }
 
 p {
@@ -105,7 +106,7 @@ p {
 
 .form-box {
     border-radius: 5px;
-    padding: 0 15px;
+    padding: 5px 20px 0;
     margin-top: 45px;
 }
 
@@ -115,6 +116,7 @@ p {
     padding-top: 25px;
     font-size: 32px;
     font-weight: 600;
+    color: #031b4e;
 }
 
 .form-box h3 span {
@@ -146,7 +148,7 @@ p {
 .form-group img {
     position: absolute;
     width: 20px;
-    bottom: 100px;
+    bottom: 105px;
     left: 40px;
 }
 
@@ -203,7 +205,52 @@ p {
 }
 
 /* Carousel section */
-#carousel {
+#carousel h2 {
+    margin-bottom: 35px;
+}
+
+.arrows {
+    display: inline-block;
+    font-size: 50px;
+    vertical-align: middle;
+    margin-top: 90px;
+}
+
+.fa-angle-left {
+    color: #5b6987;
+}
+
+.droplet {
+    width: 60%;
+    height: auto;
+    padding: 50px 25px 10px;
+}
+
+.fa-angle-right {
+    color: #031b4e;
+}
+
+.closing-par {
+    color: #031b4e;
+    margin-top: 15px;
+}
+
+#carousel button {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #0069ff;
+    border-radius: 100%;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+#blue-button {
+    background-color: #0069ff;
+}
+
+/* Fetures section */
+/* TODO */
+#features {
 
 }
 
@@ -213,7 +260,7 @@ p {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 130px;
+        bottom: 135px;
         left: 40px;
     }
 }
@@ -222,7 +269,7 @@ p {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 100px;
+        bottom: 105px;
         left: 40px;
     }
 }
@@ -236,12 +283,24 @@ p {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 130px;
+        bottom: 135px;
         left: 40px;
     }
 
     #logos img {
         padding: 0;
+    }
+
+    .arrows {
+        margin-top: 150px;
+    }
+
+    .droplet {
+        margin-top: 90px;
+    }
+
+    #carousel button {
+        margin-top: 80px;
     }
 }
 
@@ -258,7 +317,7 @@ p {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 60px;
+        bottom: 65px; 
         left: 40px;
     }
 
@@ -274,5 +333,19 @@ p {
     #logos img {
         width: 45%;
         padding: 0 10px;
+    }
+
+    .arrows {
+        visibility: hidden;
+    }
+}
+
+/* XXS */
+@media screen and (max-width: 432px) {
+    .form-group img {
+        position: absolute;
+        width: 20px;
+        bottom: 95px;
+        left: 40px;
     }
 }
