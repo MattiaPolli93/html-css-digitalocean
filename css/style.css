@@ -166,9 +166,10 @@ p {
 }
 
 #logos img {
-    height: 80px;
-    width: 100%; 
-    object-fit: contain; 
+    display: inline-block;
+    vertical-align: middle;
+    width: calc((100% / 6) - 15px);
+    margin: 0 5px;
 }
 
 #logos p {
@@ -203,7 +204,7 @@ p {
 
 /* Carousel section */
 #carousel {
-    
+
 }
 
 /* Responsive */
@@ -267,5 +268,11 @@ p {
 
     #logos p {
         padding: 40px 0 15px;
+    }
+
+
+    #logos img {
+        width: 45%;
+        padding: 0 10px;
     }
 }
