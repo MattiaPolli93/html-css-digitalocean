@@ -12,6 +12,10 @@ h1 {
     color: #fff;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 .bg-grey {
     background-color: #f3f5f9;
 }
@@ -87,11 +91,91 @@ h1 {
 }
 
 .form-box {
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-top: 45px;
+}
 
+.form-box h3 {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 25px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.form-box h3 span {
+    color: #0069ff;
+}
+
+.form-box form::placeholder {
+    padding: 20px;
+}
+
+.form-box form input {
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+#create_account {
+    background-color: #0069ff;
+}
+
+#create_account::placeholder {
+    color: #fff;
+}
+
+#sign_google {
+    position: relative;
+    box-shadow: 3px 5px 5px #818181;
+}
+
+.form-group img {
+    position: absolute;
+    width: 20px;
+    bottom: 100px;
+    left: 40px;
+}
+
+.form-box form a {
+    text-decoration: underline;
 }
 
 /* Responsive */
-/* XS */
+/* MD */
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    .form-group img {
+        position: absolute;
+        width: 20px;
+        bottom: 130px;
+        left: 40px;
+    }
+}
+
+/* MD to LG to beyond*/
+@media screen and (min-width: 992px) {
+    .form-group img {
+        position: absolute;
+        width: 20px;
+        bottom: 130px;
+        left: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form-group img {
+        position: absolute;
+        width: 20px;
+        bottom: 100px;
+        left: 40px;
+    }
+}
+
+/* SM */
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 40px;
@@ -100,17 +184,11 @@ h1 {
     .jumbo p {
         margin-bottom: 10px;
     }
-    
-}
 
-/* SM */
-@media screen and (max-width: 991px) {
-    h1 {
-        font-size: 40px;
+    .form-group img {
+        position: absolute;
+        width: 20px;
+        bottom: 60px;
+        left: 40px;
     }
-}
-
-/* MD to LG */
-@media screen and (min-width: 992px) {
-
 }
