@@ -32,6 +32,10 @@ p {
     background-color: #f3f5f9;
 }
 
+.border-bottom-white {
+    border-bottom: 1px solid #fff;
+}
+
 /* Buttons */
 .btn-sign-up {
     padding: 10px 22px;
@@ -216,7 +220,7 @@ p {
     margin-top: 90px;
 }
 
-.fa-angle-left {
+#carousel .fa-angle-left {
     color: #5b6987;
 }
 
@@ -226,7 +230,7 @@ p {
     padding: 50px 25px 10px;
 }
 
-.fa-angle-right {
+#carousel .fa-angle-right {
     color: #031b4e;
 }
 
@@ -249,13 +253,61 @@ p {
 }
 
 /* Fetures section */
-/* TODO */
 #features {
+    padding-bottom: 60px;
+}
 
+#features img {
+    margin: 30px 0 15px;
+}
+
+#features a {
+    font-weight: 600;
+}
+
+/* Table section */
+#table {
+    background-color: #031b4e;
+    background-image: url(../img/bg-map.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#table h2 {
+    padding-bottom: 10px;
+}
+
+/* 
+.left-table,
+.right-table {
+} */
+
+#table span {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#table p {
+    color: #fff;
+    opacity: 0.6;
+    margin: 0;
+}
+
+#table a {
+    color: #337ab7;
+}
+
+#table span,
+#table p,
+#table a {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 15px 0;
 }
 
 /* Responsive */
-/* MD to LG to beyond*/
+/* MD to LG and beyond */
 @media screen and (min-width: 992px) {
     .form-group img {
         position: absolute;
