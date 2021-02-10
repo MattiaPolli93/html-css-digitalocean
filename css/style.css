@@ -391,7 +391,7 @@ p {
 /* Footer */
 footer {
     background-color: #010e28;
-    padding: 50px 0;
+    padding: 50px 0 30px;
 }
 
 footer img {
@@ -431,6 +431,61 @@ footer .list-inline li:first-child a {
     font-size: 20px;
     font-weight: 600;
     padding-top: 0;
+}
+
+/* Sammy Shark */
+.shark-box {
+    /* position: fixed; */
+    margin: 5px 0 0 10px;
+    z-index: 3;
+}
+
+.cloud {
+    width: 250px;
+    height: 65px;
+    background-color: #f3f5f9;
+    position: relative;
+    border-radius: 5px;
+}
+
+.cloud p {
+    font-size: 15px;
+    text-align: left;
+    color: #333;
+    line-height: 25px;
+    padding: 8px 5px 0;
+
+}
+
+.fa-caret-right {
+    color: #f3f5f9;
+    position: absolute;
+    bottom: 10px;
+    left: 248px
+}
+
+.shark-box img {
+    position: absolute;
+    float: left;
+    top: 0;
+    width: 65px;
+    height: auto;
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-size: contain;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.number {
+    position: absolute;
+    transform: translate(1080%, -240%);
+    width: 30px;
+    height: auto;
+    font-weight: 600;
+    text-align: center;
+    background-color: #ff0000;
+    border: 4px solid #fff;
+    border-radius: 50%;
 }
 
 /* Responsive */
@@ -485,6 +540,9 @@ footer .list-inline li:first-child a {
     footer ul {
         padding-top: 25px;
     }
+
+    .shark-box {
+    }
 }
 
 /* SM to XS*/
@@ -537,7 +595,6 @@ footer .list-inline li:first-child a {
         width: 20px;
         bottom: 95px;
         left: 30px;
-
     }
 
     .rockerbox img {
