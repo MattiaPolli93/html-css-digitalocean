@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-size: 60px;
-    margin: 60px 0 30px;
+    margin: 40px 0 30px;
 }
 
 h2 {
@@ -106,6 +106,7 @@ p {
 /* Jumbotron */
 .jumbo {
     margin-top: 80px;
+    padding: 20px 0 10px;
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,15 +119,16 @@ p {
 }
 
 .form-box {
+    position: relative;
     border-radius: 5px;
     padding: 5px 20px 0;
-    margin-top: 45px;
 }
 
 .form-box h3 {
+    margin-bottom: 20px;
     text-align: center;
     line-height: 40px;
-    padding-top: 25px;
+    padding-top: 15px;
     font-size: 32px;
     font-weight: 600;
     color: #031b4e;
@@ -145,6 +147,15 @@ p {
     padding: 0 5px;
 }
 
+.form-box p {
+    font-size: 15px;
+    padding: 10px 0 40px;
+}
+
+.form-box p small {
+    font-weight: 500;
+}
+
 #create_account {
     background-color: #0069ff;
 }
@@ -154,19 +165,19 @@ p {
 }
 
 #sign_google {
-    position: relative;
     box-shadow: 3px 5px 5px #818181;
 }
 
 .form-group img {
     position: absolute;
     width: 20px;
-    bottom: 105px;
-    left: 40px;
+    bottom: 95px;
+    left: 30px;
 }
 
 .form-box form a {
     text-decoration: underline;
+    font-weight: 500;
 }
 
 /* Logos section */
@@ -191,6 +202,10 @@ p {
     padding-top: 25px;
 }
 
+#logos p a {
+    font-weight: 500;
+}
+
 /* Deploy section */
 .section-par {
     font-size: 20px;
@@ -211,6 +226,10 @@ p {
 
 .aside li a {
     color: #5b6987;
+}
+
+.aside li:first-child {
+    border-left: 2.5px solid #031b4e;
 }
 
 .aside-list img {
@@ -408,7 +427,7 @@ footer li {
     padding: 5px 0;
 }
 
-.list-inline li:first-child a {
+footer .list-inline li:first-child a {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
@@ -421,8 +440,8 @@ footer li {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 135px;
-        left: 40px;
+        bottom: 95px;
+        left: 30px;
     }
 }
 
@@ -430,8 +449,8 @@ footer li {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 105px;
-        left: 40px;
+        bottom: 95px;
+        left: 30px;
     }
 }
 
@@ -444,8 +463,8 @@ footer li {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 135px;
-        left: 40px;
+        bottom: 95px;
+        left: 30px;
     }
 
     #logos img {
@@ -482,8 +501,8 @@ footer li {
     .form-group img {
         position: absolute;
         width: 20px;
-        bottom: 65px; 
-        left: 40px;
+        bottom: 95px; 
+        left: 30px;
     }
 
     #logos h4 {
@@ -515,6 +534,6 @@ footer li {
         position: absolute;
         width: 20px;
         bottom: 95px;
-        left: 40px;
+        left: 30px;
     }
 }
