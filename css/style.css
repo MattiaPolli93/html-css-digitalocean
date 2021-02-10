@@ -208,9 +208,13 @@ p {
     margin: 25px 0 15px;
 }
 
-/* Carousel section */
+/* Carousel and Second-Carousel sections */
 #carousel h2 {
     margin-bottom: 35px;
+}
+
+#second-carousel h2 {
+    padding-bottom: 80px;
 }
 
 .arrows {
@@ -220,18 +224,40 @@ p {
     margin-top: 90px;
 }
 
-#carousel .fa-angle-left {
+#second-carousel .arrows {
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+#carousel .fa-angle-left,
+#second-carousel .fa-angle-left {
     color: #5b6987;
 }
 
-.droplet {
-    width: 60%;
+.droplet,
+.rockerbox {
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
     height: auto;
     padding: 50px 25px 10px;
 }
 
-#carousel .fa-angle-right {
+#carousel .fa-angle-right,
+#second-carousel .fa-angle-right {
     color: #031b4e;
+}
+#second-carousel .arrows .fa-angle-left,
+#second-carousel .arrows .fa-angle-right {
+    padding-bottom: 160px;
+}
+
+#second-carousel a {
+    font-weight: 600;
+}
+
+#second-carousel a .fa-angle-right {
+    color: inherit;
 }
 
 .closing-par {
@@ -239,7 +265,21 @@ p {
     margin-top: 15px;
 }
 
-#carousel button {
+.rockerbox {
+    padding-bottom: 40px;
+}
+
+.rockerbox-par {
+    margin: 25px 0;
+    font-size: 24px;
+}
+
+.rockerbox span {
+    font-size: 16px;
+}
+
+#carousel button,
+#second-carousel button {
     width: 10px;
     height: 10px;
     border: 2px solid #0069ff;
@@ -248,8 +288,13 @@ p {
     margin-bottom: 50px;
 }
 
-#blue-button {
+.blue-button {
     background-color: #0069ff;
+}
+
+#second-carousel span {
+    color: #031b4e;
+    font-weight: 600;
 }
 
 /* Fetures section */
@@ -272,6 +317,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-bottom: 50px;
 }
 
 #table h2 {
@@ -305,6 +351,12 @@ p {
     display: inline-block;
     padding: 15px 0;
 }
+
+/* Second carousel section */
+    /* Code above with "Carousel section" */
+
+/* Get started section */
+#get-started
 
 /* Responsive */
 /* MD to LG and beyond */
