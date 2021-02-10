@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-size: 60px;
-    margin: 40px 0 30px;
+    margin: 15px 0 30px;
 }
 
 h2 {
@@ -106,7 +106,7 @@ p {
 /* Jumbotron */
 .jumbo {
     margin-top: 80px;
-    padding: 20px 0 10px;
+    padding: 60px 0 10px;
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -352,11 +352,6 @@ p {
     padding-bottom: 10px;
 }
 
-/* 
-.left-table,
-.right-table {
-} */
-
 #table span {
     text-transform: uppercase;
     color: #fff;
@@ -369,7 +364,7 @@ p {
 }
 
 #table a {
-    color: #337ab7;
+    color: #00ffff;
 }
 
 #table span,
@@ -378,6 +373,10 @@ p {
     vertical-align: middle;
     display: inline-block;
     padding: 15px 0;
+}
+
+.padded {
+    padding: 0 30px;
 }
 
 /* Second carousel section */
@@ -513,10 +512,13 @@ footer .list-inline li:first-child a {
         padding: 40px 0 15px;
     }
 
-
     #logos img {
         width: 45%;
         padding: 0 10px;
+    }
+
+    .rockerbox img {
+        width: 100%;
     }
 
     .arrows {
@@ -535,5 +537,10 @@ footer .list-inline li:first-child a {
         width: 20px;
         bottom: 95px;
         left: 30px;
+
+    }
+
+    .rockerbox img {
+        width: 100%;
     }
 }
