@@ -59,6 +59,15 @@ p {
     color: #0069ff;
 }
 
+.btn-account {
+    font-weight: 600;
+    color: #0069ff;
+    background-color: #fff;
+    margin: 25px 0 40px;
+    border: 1px solid transparent;
+    padding: 15px 25px;
+}
+
 /* Header */
 .nav-box {
     position: fixed;
@@ -356,7 +365,10 @@ p {
     /* Code above with "Carousel section" */
 
 /* Get started section */
-#get-started
+#get-started {
+    background-color: #0069ff;
+    background-image: url(https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format);
+}
 
 /* Responsive */
 /* MD to LG and beyond */
