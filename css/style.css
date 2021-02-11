@@ -433,28 +433,28 @@ footer .list-inline li:first-child a {
     padding-top: 0;
 }
 
-/* Sammy Shark */
-.shark-box {
-    /* position: fixed; */
-    margin: 5px 0 0 10px;
+/* Shark */
+.comic-box {
+    position: fixed;
+    margin: 5px 0 0 100px;
     z-index: 3;
+    bottom: 20px;
 }
 
-.cloud {
+.shark-box {
     width: 250px;
     height: 65px;
-    background-color: #f3f5f9;
+    background-color: #fcfdff;
     position: relative;
     border-radius: 5px;
 }
 
-.cloud p {
+.shark-box p {
     font-size: 15px;
     text-align: left;
     color: #333;
     line-height: 25px;
-    padding: 8px 5px 0;
-
+    padding: 6px 2px 2px 6px;
 }
 
 .fa-caret-right {
@@ -473,12 +473,13 @@ footer .list-inline li:first-child a {
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-size: contain;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .number {
     position: absolute;
-    transform: translate(1080%, -240%);
+    right: -100px;
+    bottom: 50px;
     width: 30px;
     height: auto;
     font-weight: 600;
